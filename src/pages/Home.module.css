@@ -1,0 +1,63 @@
+/*estilos para o modal*/
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e90a0a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.close:hover {
+    background-color: #a52424;
+}
+
+/*estilos para a home*/
+.home {
+    min-height: 100vh;
+    background-color: #e3e2eb;
+}
+
+.home h1 {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.home img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 150px 10px 150px;
+    filter: blur(0.5px)
+}
+
+.home button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    background-color: #212129;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600px;
+    color: #fff;
+    cursor: pointer;
+}
