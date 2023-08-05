@@ -1,4 +1,4 @@
 [[headers]]
-  for = "/*.js"
+  for = "/*.tsx"
   [headers.headers]
   Content-Type = "application/javascript"
