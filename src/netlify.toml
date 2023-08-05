@@ -1,4 +1,0 @@
-[[headers]]
-  for = "/*.tsx"
-  [headers.headers]
-  Content-Type = "application/javascript"
